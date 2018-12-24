@@ -1,0 +1,9 @@
+File,Fonts
+Resto.psd,Aleo-Regular,WCManoNegraBta-Regular,Aleo-Bold,Aleo-LightItalic,Aleo-Light,Aleo-Light,Aleo-Bold,Aleo-Regular,Aleo-Light,Aleo-Bold
+
+List of fonts used in all documents
+Aleo-Bold
+Aleo-Light
+Aleo-LightItalic
+Aleo-Regular
+WCManoNegraBta-Regular
