@@ -23,6 +23,7 @@ html {
 body {
 	color: #3b3b3b;
 	font-size: 10px;
+	font-weight: 400;
 }
 
 ul {
@@ -100,3 +101,36 @@ h1 {
 }
 
 /* Menu */
+
+footer#footer {
+    display: flex;
+    justify-content: center;
+    background: #3b3b3b;
+    color: #fff;
+    padding: 100px 0;
+}
+
+#footer .f-container {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#footer ul {
+    flex-direction: column;
+    margin: 0;
+}
+
+#footer a {
+    color: #fff;
+}
+
+#footer li {
+    margin: 0;
+    line-height: 30px;
+}
+
+#footer li span {
+    font-weight: 300;
+    color: #ebebeb;
+}
