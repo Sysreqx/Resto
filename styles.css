@@ -27,6 +27,8 @@ body {
 }
 
 ul {
+	display: flex;
+	width: 100%;
 	padding: 0;
 	list-style: none;
 }
@@ -57,8 +59,6 @@ a {
 }
 
 ul {
-	display: flex;
-	width: 100%;
 }
 
 /* Billboard */
@@ -100,6 +100,14 @@ h1 {
     text-align: center;
 }
 
+/* Menu */
+section#menu {
+    border-top: 3px solid #f34949;
+    display: flex;
+    justify-content: center;
+    color: #555555;
+}
+
 /* Footer */
 
 footer#footer {
@@ -133,4 +141,70 @@ footer#footer {
 #footer li span {
     font-weight: 300;
     color: #ebebeb;
+}
+
+#menu .f-container {
+    flex-direction: column;
+}
+
+#menu ul {
+    flex-direction: column;
+    margin: 5% 0;
+}
+
+.menu-w {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#menu li {
+    margin: 0;
+    margin-bottom: 60px;
+}
+
+#menu h2 {
+    color: #fff;
+    margin: 0;
+    background: url(images/menu-bg.png);
+    width: 155px;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.li-w {
+    display: flex;
+    justify-content: space-between;
+}
+
+#menu ul:nth-child(odd) {
+    margin-right: 8%;
+}
+
+span.description {
+    color: #b7b7b7;
+    font-size: 1.2rem;
+    font-weight: 300;
+    font-style: italic;
+    display: inline-block;
+    width: 100%;
+    border-top: 1px solid #b7b7b7;
+    padding-top: 13px;
+    position: relative;
+    top: -8px;
+}
+
+span.dish {
+    background: #fff;
+    z-index: 2;
+    padding-right: 15px;
+}
+
+span.price {
+    background: #fff;
+    padding-left: 15px;
+    z-index: 2;
 }
